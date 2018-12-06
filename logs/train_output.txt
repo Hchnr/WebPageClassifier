@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "train.py", line 46, in <module>
+    clf.fit(np.array(X)[train], np.array(y)[train])
+  File "/home/software/conda/lib/python3.6/site-packages/sklearn/svm/base.py", line 149, in fit
+    accept_large_sparse=False)
+  File "/home/software/conda/lib/python3.6/site-packages/sklearn/utils/validation.py", line 756, in check_X_y
+    estimator=estimator)
+  File "/home/software/conda/lib/python3.6/site-packages/sklearn/utils/validation.py", line 527, in check_array
+    array = np.asarray(array, dtype=dtype, order=order)
+  File "/home/software/conda/lib/python3.6/site-packages/numpy/core/numeric.py", line 501, in asarray
+    return array(a, dtype, copy=False, order=order)
+ValueError: setting an array element with a sequence.
+

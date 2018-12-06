@@ -1,0 +1,19 @@
+model: "svm"
+dataSet: "../data/tagged_pages.csv"
+features:
+  paraSumLength: true
+  paraMaxLength: true
+  linkNumber: true
+  paraSumLinkRatio: true
+  paraMaxLinkRatio: true
+  isH1: true
+  isTitle: false
+  isAuthor: false
+  isDate: false
+  paragraphPercentage: false
+  linkPercentage: false
+  titleLength: false
+  URLPostfix:
+  - regex: ".com"
+  - regex: "/"
+  - regex: "index"
